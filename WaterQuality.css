@@ -1,0 +1,58 @@
+/* Apply blue background to the whole page */
+body {
+  background-color: #0d47a1; /* Deep blue */
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Container styling */
+.water-quality-container {
+  padding: 100px 20px 20px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #0d47a1; /* White text for contrast */
+}
+
+/* Heading style */
+.water-quality-container h2 {
+  text-align: center;
+  color: #0d47a1; /* Light blue */
+  margin-bottom: 30px;
+}
+
+/* Boxes layout */
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual box */
+.box {
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #2196f3; /* Medium blue */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  color: white; /* Text contrasts with blue */
+  transition: transform 0.2s;
+}
+
+/* Hover effect */
+.box:hover {
+  transform: scale(1.05);
+}
+
+/* Box heading */
+.box h3 {
+  margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}

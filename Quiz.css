@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.box {
+  flex: 1 1 calc(25% - 20px); /* 4 boxes per row */
+  background-color: #f8f9fa; /* light grey background */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  min-width: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.box h3 {
+  color: #0077b6; /* light blue heading */
+}
+
+.box p {
+  color: #0077b6;
+}
